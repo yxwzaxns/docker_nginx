@@ -18,6 +18,8 @@ ADD ./default.conf /etc/nginx/conf.d/
 
 EXPOSE 80
 
+EXPOSE 8086
+
 RUN chmod a+x /conf/start.sh
 
 CMD ["/conf/start.sh"]
