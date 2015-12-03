@@ -16,6 +16,8 @@ ADD ./nginx.conf /etc/nginx/nginx.conf
 
 ADD ./default.conf /etc/nginx/conf.d/
 
+ADD ./8086_nginx.conf /etc/nginx/conf.d/
+
 EXPOSE 80
 
 EXPOSE 8086
