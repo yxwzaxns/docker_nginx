@@ -1,4 +1,4 @@
-FROM centos6.6
+FROM centos:6.6
 
 ADD ./nginx.repo /etc/yum.repos.d/
 
